@@ -56,82 +56,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114119192011539012, guid: b10447bb983d60343ab47d2f8ca01eef, type: 3}
-    - {fileID: 95673120308393774, guid: b10447bb983d60343ab47d2f8ca01eef, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1940402267846110, guid: b10447bb983d60343ab47d2f8ca01eef, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 4192696678069783622}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b10447bb983d60343ab47d2f8ca01eef, type: 3}
---- !u!1 &8032266953574886910 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1940402267846110, guid: b10447bb983d60343ab47d2f8ca01eef, type: 3}
-  m_PrefabInstance: {fileID: 8034066549337085984}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &4192696678069783622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8032266953574886910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2de5a30ff40b9b04c902c654a113a2e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controlSpeed: 18
-  xBorder: 10
-  yBorder: 5
-  movement:
-    m_Name: Movement
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: 220dea3f-6978-47f3-84dd-6e495dc5080f
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 2D Vector
-      m_Id: d2bfd1fe-503e-42d4-9b80-30de81d480d8
-      m_Path: 2DVector
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 4
-    - m_Name: up
-      m_Id: 7e8eb360-8f3d-40b0-b5bc-c9ea59d6eefe
-      m_Path: <Keyboard>/w
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 8
-    - m_Name: down
-      m_Id: c40d21f7-ca33-483c-a85c-2160c86ca0b1
-      m_Path: <Keyboard>/s
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 8
-    - m_Name: left
-      m_Id: cc3f52ca-5fe2-42ae-b94c-33e014717ef2
-      m_Path: <Keyboard>/a
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 8
-    - m_Name: right
-      m_Id: 56cd75b5-6de3-434b-bd74-764c440391e5
-      m_Path: <Keyboard>/d
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 8
-    m_Flags: 0
