@@ -124,7 +124,7 @@ Transform:
   - {fileID: 1792905185898726615}
   - {fileID: 4594604523376736001}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1703569894190444434
 Animator:
@@ -155,6 +155,54 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3767713026901308115}
     m_Modifications:
+    - target: {fileID: 27330290756204026, guid: 7a55b9d612cc82f409d611fabba1ddbc, type: 3}
+      propertyPath: EmissionModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2614001265568565271, guid: 7a55b9d612cc82f409d611fabba1ddbc, type: 3}
+      propertyPath: shooting.m_Id
+      value: 99498ddb-ba1c-41ce-a0db-e95531272fa8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2614001265568565271, guid: 7a55b9d612cc82f409d611fabba1ddbc, type: 3}
+      propertyPath: guns.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2614001265568565271, guid: 7a55b9d612cc82f409d611fabba1ddbc, type: 3}
+      propertyPath: guns.Array.data[0]
+      value: 
+      objectReference: {fileID: 8642886538756975405}
+    - target: {fileID: 2614001265568565271, guid: 7a55b9d612cc82f409d611fabba1ddbc, type: 3}
+      propertyPath: guns.Array.data[1]
+      value: 
+      objectReference: {fileID: 3512557863624063721}
+    - target: {fileID: 2614001265568565271, guid: 7a55b9d612cc82f409d611fabba1ddbc, type: 3}
+      propertyPath: shooting.m_SingletonActionBindings.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2614001265568565271, guid: 7a55b9d612cc82f409d611fabba1ddbc, type: 3}
+      propertyPath: shooting.m_SingletonActionBindings.Array.data[0].m_Id
+      value: 9eeec1fa-0573-429e-bdcd-0e7cefe31434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2614001265568565271, guid: 7a55b9d612cc82f409d611fabba1ddbc, type: 3}
+      propertyPath: shooting.m_SingletonActionBindings.Array.data[0].m_Path
+      value: <Mouse>/leftButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 2614001265568565271, guid: 7a55b9d612cc82f409d611fabba1ddbc, type: 3}
+      propertyPath: shooting.m_SingletonActionBindings.Array.data[0].m_Action
+      value: Shooting
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129520289619502142, guid: 7a55b9d612cc82f409d611fabba1ddbc, type: 3}
+      propertyPath: EmissionModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6159055120701691593, guid: 7a55b9d612cc82f409d611fabba1ddbc, type: 3}
+      propertyPath: explosionFx
+      value: 
+      objectReference: {fileID: 3451513471455263088}
+    - target: {fileID: 6159055120701691593, guid: 7a55b9d612cc82f409d611fabba1ddbc, type: 3}
+      propertyPath: aircraftBody
+      value: 
+      objectReference: {fileID: 1795388028827985179}
     - target: {fileID: 8030206785754225152, guid: 7a55b9d612cc82f409d611fabba1ddbc, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -203,6 +251,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Johnny J' Fighter Aircraft
       objectReference: {fileID: 0}
+    - target: {fileID: 8032266953574886910, guid: 7a55b9d612cc82f409d611fabba1ddbc, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -211,5 +263,25 @@ PrefabInstance:
 --- !u!4 &1792905185898726615 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8030206785754225152, guid: 7a55b9d612cc82f409d611fabba1ddbc, type: 3}
+  m_PrefabInstance: {fileID: 8615574391020642007}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1795388028827985179 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8032966689244789708, guid: 7a55b9d612cc82f409d611fabba1ddbc, type: 3}
+  m_PrefabInstance: {fileID: 8615574391020642007}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &3451513471455263088 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 6374447755253524391, guid: 7a55b9d612cc82f409d611fabba1ddbc, type: 3}
+  m_PrefabInstance: {fileID: 8615574391020642007}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &3512557863624063721 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5129520289619502142, guid: 7a55b9d612cc82f409d611fabba1ddbc, type: 3}
+  m_PrefabInstance: {fileID: 8615574391020642007}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &8642886538756975405 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 27330290756204026, guid: 7a55b9d612cc82f409d611fabba1ddbc, type: 3}
   m_PrefabInstance: {fileID: 8615574391020642007}
   m_PrefabAsset: {fileID: 0}
