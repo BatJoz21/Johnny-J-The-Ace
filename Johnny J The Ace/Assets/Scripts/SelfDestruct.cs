@@ -5,11 +5,6 @@ using UnityEngine;
 
 public class SelfDestruct : MonoBehaviour
 {
-    void Start()
-    {
-        
-    }
-
     void Update()
     {
         ClearChildren();

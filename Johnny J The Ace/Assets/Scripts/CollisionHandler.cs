@@ -12,7 +12,7 @@ public class CollisionHandler : MonoBehaviour
     private PlayerControls plc;
     private BoxCollider coll;
 
-    void Start()
+    void Awake()
     {
         plc = GetComponent<PlayerControls>();
         coll = GetComponent<BoxCollider>();
