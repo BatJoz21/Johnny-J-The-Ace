@@ -389,7 +389,6 @@ MonoBehaviour:
   enemyHealth: 2
   enemyExplosion: {fileID: 2762165627340030154, guid: 8ac171c2d8062574c9bc44705a32acc9, type: 3}
   enemyDamaged: {fileID: 2762165627340030154, guid: 1903e4ae537d8a54dac00e782c67b8d6, type: 3}
-  parent: {fileID: 2020606809}
   enemyVal: 20
 --- !u!1 &644726513
 GameObject:
@@ -534,7 +533,6 @@ MonoBehaviour:
   enemyHealth: 2
   enemyExplosion: {fileID: 2762165627340030154, guid: 8ac171c2d8062574c9bc44705a32acc9, type: 3}
   enemyDamaged: {fileID: 2762165627340030154, guid: 1903e4ae537d8a54dac00e782c67b8d6, type: 3}
-  parent: {fileID: 2020606809}
   enemyVal: 10
 --- !u!1 &671365211
 GameObject:
@@ -830,7 +828,7 @@ GameObject:
   - component: {fileID: 2020606810}
   m_Layer: 0
   m_Name: Spawn At Runtime
-  m_TagString: Untagged
+  m_TagString: SpawnAtRuntime
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
