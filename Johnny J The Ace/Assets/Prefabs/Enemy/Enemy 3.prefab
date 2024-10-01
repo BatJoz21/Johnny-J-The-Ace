@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1132363881725136029, guid: a5bba4471f2b885428541314bad7877b, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 1132363881725136029, guid: a5bba4471f2b885428541314bad7877b, type: 3}
       propertyPath: m_LocalScale.x
@@ -111,7 +111,6 @@ MonoBehaviour:
   enemyHealth: 8
   enemyExplosion: {fileID: 2762165627340030154, guid: 8ac171c2d8062574c9bc44705a32acc9, type: 3}
   enemyDamaged: {fileID: 2762165627340030154, guid: 1903e4ae537d8a54dac00e782c67b8d6, type: 3}
-  parent: {fileID: 0}
   enemyVal: 80
 --- !u!65 &7566213291037234796
 BoxCollider:
@@ -132,5 +131,5 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 12.031667, y: 3.1520739, z: 18.432697}
-  m_Center: {x: 0.15265602, y: 1.0760367, z: 1.8757207}
+  m_Size: {x: 12.031667, y: 5.0929832, z: 18.432697}
+  m_Center: {x: 0.15265602, y: 2.0464911, z: 1.8757207}
