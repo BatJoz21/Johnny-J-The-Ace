@@ -29,13 +29,13 @@ public class Enemy : MonoBehaviour
     private void OnParticleCollision(GameObject other)
     {
         DamagedEnemy();
-        ProcessScore();
     }
 
     private void DamagedEnemy()
     {
         if (enemyHealth == 0)
         {
+            ProcessScore();
             PlayParticleEffect(enemyExplosion);
             Destroy(this.gameObject);
         }
