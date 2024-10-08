@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private GameObject enemyExplosion;
     [SerializeField] private GameObject enemyDamaged;
     [SerializeField] private int enemyVal = 10;
+    //[SerializeField] private AudioSource enemyExplodeSfx;
 
     private GameObject parent;
     private ScoreBoard scoreBoard;
@@ -37,6 +38,7 @@ public class Enemy : MonoBehaviour
         {
             ProcessScore();
             PlayParticleEffect(enemyExplosion);
+            //enemyExplodeSfx.Play();
             Destroy(this.gameObject);
         }
         else
@@ -53,7 +55,7 @@ public class Enemy : MonoBehaviour
 
     private void PlayParticleEffect(GameObject val)
     {
-        GameObject vfx = Instantiate(val, transform.position, Quaternion.identity);
-        vfx.transform.parent = parent.transform;
+        GameObject temp = Instantiate(val, transform.position, Quaternion.identity);
+        temp.transform.parent = parent.transform;
     }
 }
